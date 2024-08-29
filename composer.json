@@ -20,13 +20,16 @@
     {
       "name": "seaworn",
       "email": "seaworndrift@gmail.com"
+    },
+    {
+      "name": "sunlazor"
     }
   ],
   "require": {
     "php": ">=8.0",
     "ext-json": "*",
-    "symfony/framework-bundle": "6.*",
-    "symfony/twig-bundle": "6.*"
+    "symfony/framework-bundle": "^6|^7",
+    "symfony/twig-bundle": "^6|^7"
   },
   "require-dev": {
     "phpunit/phpunit": "*"
